@@ -1,0 +1,16 @@
+Source: arc-icon-theme
+Section: misc
+Priority: optional
+Maintainer: Robin Gustafsson <robin@rgson.se>
+Build-Depends: debhelper (>= 11), dh-buildinfo, pkg-config
+Standards-Version: 4.1.4
+Homepage: https://github.com/horst3180/arc-icon-theme
+Vcs-Browser: https://github.com/rgson/arc-icon-theme/tree/debian
+Vcs-Git: https://github.com/rgson/arc-icon-theme -b debian
+
+Package: arc-icon-theme
+Architecture: all
+Depends: moka-icon-theme, adwaita-icon-theme, gnome-icon-theme, ${misc:Depends}
+Recommends: arc-theme
+Description: Flat desktop icons for the Arc theme
+ Arc is a flat theme with transparent elements.
