@@ -10,7 +10,11 @@ Vcs-Git: https://github.com/rgson/arc-icon-theme -b debian
 
 Package: arc-icon-theme
 Architecture: all
-Depends: moka-icon-theme, adwaita-icon-theme, gnome-icon-theme, ${misc:Depends}
-Recommends: arc-theme
+Depends: ${misc:Depends},
+         moka-icon-theme
+         | adwaita-icon-theme
+         | gnome-icon-theme
+         | hicolor-icon-theme
+Recommends: arc-theme, moka-icon-theme
 Description: Flat desktop icons for the Arc theme
  Arc is a flat theme with transparent elements.

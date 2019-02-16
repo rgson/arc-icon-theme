@@ -1,3 +1,9 @@
+arc-icon-theme (20161122-2) unstable; urgency=low
+
+  * Soften the dependency on inherited icon themes
+
+ -- Robin Gustafsson <robin@rgson.se>  Sat, 16 Feb 2019 14:24:02 +0100
+
 arc-icon-theme (20161122-1) unstable; urgency=low
 
   * Initial release
